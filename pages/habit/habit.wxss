@@ -1,0 +1,26 @@
+/* pages/habit/habit.wxss */
+.list-item{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: chartreuse;
+  margin-top: 5px;
+  display: flex;
+}
+.list-item text.complete-item{
+  margin-left: 50px;
+}
+.addBtn{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.completed{
+  text-decoration: line-through;
+}
+.complete{
+  display: none
+}
+.show-complete{
+  display: block
+}

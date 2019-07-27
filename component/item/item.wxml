@@ -1,0 +1,7 @@
+<view class="item">
+<view class="item-con">
+{{item.title}}
+</view>
+<text class="addBtn" bindtap="addHobit" data-id="{{item.id}}">+</text>
+
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Item": "../../component/item/item",
+    "Mask":"../../component/mask/mask"
+  }
+}

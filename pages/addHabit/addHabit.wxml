@@ -1,0 +1,6 @@
+<!--pages/addHabit/addHabit.wxml-->
+<view class="title">添加习惯</view>
+<view class="ipt-wrap"> <input placeholder="输入你的习惯" class="ipt" value="{{iptVal}}" bindinput="changeVal"></input> <text bindtap="createHobit">创建</text></view>
+<view wx:for="{{hobitList.length?hobitList:[]}}" wx:key="{{index}}">
+<Item item="{{item}}" bindaddHobit="addHobit"/>
+</view>

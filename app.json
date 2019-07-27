@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/habit/habit",
+    "pages/objective/objective",
+  
+    "pages/loveList/loveList",
+    "pages/addHabit/addHabit",
+    "pages/addObjective/addObjective"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/objective/objective",
+        "text": "目标"
+      },
+      {
+        "pagePath": "pages/habit/habit",
+        "text": "习惯"
+      },
+      {
+        "pagePath": "pages/loveList/loveList",
+        "text": "手记"
+      }
+    ]
+  }
+}

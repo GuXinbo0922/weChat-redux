@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "wechat-weapp-redux": "^0.1.3"
+  }
+}

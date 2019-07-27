@@ -1,0 +1,9 @@
+<!--pages/habit/habit.wxml-->
+<view wx:for="{{checkedHobit}}" wx:key="{{item.id}}" data-id="{{item.id}}" bindtap="showMask">
+<view class="list-item">
+<text class="{{item.isComplete==true?'completed':''}}">{{item.title}}</text>
+<text class="complete-item complete {{item.isComplete==true?'show-complete':''}}">完成</text>
+</view>
+</view>
+<Mask style="display:{{isShow}}" bindchangeMask="changeMask"/>
+<button bindtap="addHobit" class="addBtn">添加</button>
